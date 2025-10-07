@@ -1,0 +1,47 @@
+lo        Link encap:UNSPEC  
+          inet addr:127.0.0.1  Mask:255.0.0.0 
+          inet6 addr: ::1/128 Scope: Host
+          UP LOOPBACK RUNNING  MTU:65536  Metric:1
+          RX packets:7974 errors:0 dropped:0 overruns:0 frame:0 
+          TX packets:7974 errors:0 dropped:0 overruns:0 carrier:0 
+          collisions:0 txqueuelen:1000 
+          RX bytes:622443 TX bytes:622443 
+
+dummy0    Link encap:UNSPEC  
+          inet6 addr: fe80::ecfe:7ff:fe4f:ef2d/64 Scope: Link
+          UP BROADCAST RUNNING NOARP  MTU:1500  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0 
+          TX packets:26 errors:0 dropped:0 overruns:0 carrier:0 
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 TX bytes:5071 
+
+rmnet1    Link encap:UNSPEC  
+          inet6 addr: 2600:100c:1008:af97::1bd3:ab61/64 Scope: Global
+          inet6 addr: fe80::200:ff:fe00:0/64 Scope: Link
+          UP POINTOPOINT RUNNING NOARP MULTICAST  MTU:1428  Metric:1
+          RX packets:0 errors:0 dropped:0 overruns:0 frame:0 
+          TX packets:0 errors:0 dropped:0 overruns:0 carrier:0 
+          collisions:0 txqueuelen:1000 
+          RX bytes:0 TX bytes:0 
+
+rmnet2    Link encap:UNSPEC  
+          inet addr:100.118.170.31  P-t-P:100.118.170.31  Mask:255.255.255.255 
+          inet6 addr: 2600:100c:b055:753e:0:1:a2cb:c301/64 Scope: Global
+          inet6 addr: fe80::200:ff:fe00:0/64 Scope: Link
+          UP POINTOPOINT RUNNING NOARP MULTICAST  MTU:1428  Metric:1
+          RX packets:2950915 errors:0 dropped:0 overruns:0 frame:0 
+          TX packets:237551 errors:0 dropped:0 overruns:0 carrier:0 
+          collisions:0 txqueuelen:1000 
+          RX bytes:4126272187 TX bytes:21826640 
+
+wlan0     Link encap:UNSPEC  
+          inet addr:192.168.1.7  Bcast:192.168.1.255  Mask:255.255.255.0 
+          inet6 addr: 2603:8081:6ff0:7620:9235:f1ff:7496:eb30/64 Scope: Global
+          inet6 addr: fe80::f082:cfff:fedf:724a/64 Scope: Link
+          inet6 addr: 2603:8081:6ff0:7620:f082:cfff:fedf:724a/64 Scope: Global
+          UP BROADCAST RUNNING MULTICAST  MTU:1500  Metric:1
+          RX packets:203071 errors:0 dropped:0 overruns:0 frame:0 
+          TX packets:16727 errors:0 dropped:3 overruns:0 carrier:0 
+          collisions:0 txqueuelen:1000 
+          RX bytes:256477979 TX bytes:1971909 
+
