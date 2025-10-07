@@ -1,0 +1,22 @@
+
+; <<>> DiG 9.20.13 <<>> www.defenseconsultingservices.com
+;; global options: +cmd
+;; Got answer:
+;; ->>HEADER<<- opcode: QUERY, status: NOERROR, id: 31260
+;; flags: qr rd ra; QUERY: 1, ANSWER: 3, AUTHORITY: 0, ADDITIONAL: 1
+
+;; OPT PSEUDOSECTION:
+; EDNS: version: 0, flags:; udp: 512
+;; QUESTION SECTION:
+;www.defenseconsultingservices.com. IN	A
+
+;; ANSWER SECTION:
+www.defenseconsultingservices.com. 3558	IN CNAME www.defenseconsultingservices.com.s.strikinglydns.com.
+www.defenseconsultingservices.com.s.strikinglydns.com. 18 IN A 18.235.215.12
+www.defenseconsultingservices.com.s.strikinglydns.com. 18 IN A 100.25.195.121
+
+;; Query time: 288 msec
+;; SERVER: 8.8.8.8#53(8.8.8.8) (UDP)
+;; WHEN: Tue Oct 07 03:29:32 CDT 2025
+;; MSG SIZE  rcvd: 158
+

@@ -1,0 +1,10 @@
+Server:		8.8.8.8
+Address:	8.8.8.8#53
+
+Non-authoritative answer:
+www.defenseconsultingservices.com	canonical name = www.defenseconsultingservices.com.s.strikinglydns.com.
+Name:	www.defenseconsultingservices.com.s.strikinglydns.com
+Address: 100.25.195.121
+Name:	www.defenseconsultingservices.com.s.strikinglydns.com
+Address: 18.235.215.12
+
